@@ -15,98 +15,43 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>src/pages/index.js</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{" "}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
+        <div className={styles.screen}>
+          <img src="./Status Bar.svg" alt="Error in loading" />
+          <div className={styles.text_Wrapper}>
+            <h2>Digi Labs</h2>
+            <p>Holistic Digital Solutions</p>
           </div>
-        </div>
-
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-        </div>
-
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
+          <div className={styles.notification}>
+            <svg
+              width="54"
+              height="58"
+              viewBox="0 0 54 58"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M53.6667 48.3333H0.333334V43H3V24.416C3 11.1147 13.7467 0.333334 27 0.333334C40.2533 0.333334 51 11.1147 51 24.416V43H53.6667V48.3333ZM8.33333 43H45.6667V24.416C45.6667 14.0613 37.3093 5.66667 27 5.66667C16.6907 5.66667 8.33333 14.0613 8.33333 24.416V43ZM20.3333 51H33.6667C33.6667 52.7681 32.9643 54.4638 31.714 55.714C30.4638 56.9643 28.7681 57.6667 27 57.6667C25.2319 57.6667 23.5362 56.9643 22.286 55.714C21.0357 54.4638 20.3333 52.7681 20.3333 51Z"
+                fill="url(#paint0_linear_1_54)"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_1_54"
+                  x1="-9.16162"
+                  y1="33.0234"
+                  x2="59.5253"
+                  y2="33.0234"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#CE722C" />
+                  <stop offset="0.54096" stop-color="white" />
+                  <stop offset="1" stop-color="#CE722C" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <button className={styles.button}>
+            Send Notification
+          </button>
         </div>
       </main>
     </>
