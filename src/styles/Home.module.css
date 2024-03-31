@@ -7,7 +7,7 @@
   align-items: center;
 }
 .screen{
-  border: 1px solid rgba(255, 255, 255, 0.6);
+  /* border: 1px solid rgba(255, 255, 255, 0.6); */
   max-width: 360px;
   min-width: 320px;
   height: 90%;
@@ -75,5 +75,5 @@ margin-top: 16px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: center;
-
+  cursor: pointer;
 }
