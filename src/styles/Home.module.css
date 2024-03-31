@@ -21,7 +21,7 @@
   margin-top: 34px;
 }
 .text_Wrapper h2{
-  font-family: Inter;
+font-family: Inter;
 font-size: 29px;
 font-weight: 500;
 line-height: 31.9px;
@@ -35,12 +35,6 @@ line-height: 22.99px;
 text-align: center;
 color:rgba(255, 255, 255, 0.6);
 margin-top: 16px;
-}
-.bellWrapper{
-  border-radius: 50%;
-  width: 95%;
-  margin: auto;
-  margin-top: 80px;
 }
 .notification{
   /* border: 2px solid red; */
@@ -76,4 +70,30 @@ margin-top: 16px;
   letter-spacing: 0.03em;
   text-align: center;
   cursor: pointer;
+}
+@media screen  and (max-width:480px){
+  .screen{
+    max-width: 100%;
+    min-width: 100%;
+    /* border: 2px solid red; */
+    height: 100%;
+  }
+  .text_Wrapper{
+    margin-top: 60px;
+  }
+  .text_Wrapper h2{
+    font-size: 35px;
+  }
+  .text_Wrapper p{
+    font-size: 25px;
+  }
+  .notification{
+    /* border: 2px solid red; */
+    width: 95%;
+    margin-top: 140px;
+  }
+  .button{
+    margin-top: 50px;
+    /* margin-bottom: 20px; */
+  }
 }
